@@ -11,13 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500;700;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
 <body>
-  <main class="main">
+  <main class="main"> 
 
-    <!-- <section class="modal-form-driver">
+    <section class="modal-form-driver is-hidden" register-driver>
       <div class="container">
         
         <form class="form-driver">
-          <button class="close" type="button">x</button>
+          <button class="close" type="button" register-driver-close>x</button>
           <label for="form-driver__route" class="form-driver__route-label">
             <span class="form-driver__title">Trasa&#58;</span>
             <div class="form-driver__input-space">
@@ -59,12 +59,12 @@
           </button>
         </form>
       </div>
-    </section> -->
+    </section>
 
     <section class="driver">
       <div class="container">
         <h3 class="driver__header">Tu możesz zgłosić się jako kierowca</h3>
-        <button class="driver__btn">
+        <button class="driver__btn" register-driver-open>
           <span class="driver__btn-title">Zgłoś swój przejazd jako kierowca</span>
         </button>
       </div>
@@ -213,5 +213,6 @@
     </footer>
     <!-- ==================END FOOTER==================== -->
 
+    <script src="./js/register-driver.js"></script>
 </body>
 </html>

@@ -400,11 +400,11 @@ padding: 15px 0;
 }
 
 .form-driver {
-  position: relative;
+  position: fixed;
   border: 1px solid rgb(180, 180, 180);
   border-radius: 4px;
   padding: 15px;
-  background-color: rgba(207, 226, 252, 0.658);
+  background-color: rgba(207, 226, 252, 0.9);
 }
 
 .form-driver__title {
@@ -425,4 +425,22 @@ background-color: rgba(255, 253, 253, 0.678);
   width: 300px;
   border: none;
   background-color: transparent;
+}
+
+
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
