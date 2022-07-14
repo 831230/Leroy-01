@@ -1,0 +1,428 @@
+body {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  /* background-color: rgb(50, 73, 133); */
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,p {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    /* padding: 0 10px; */
+}
+
+
+/* ========================LOGIN======================== */
+
+.login .container {
+  text-align: center;
+  /* margin-top: 50px; */
+  margin-top: 10vh;
+}
+
+.login__space {
+  padding: 20px 10px;
+  margin: 0 auto;
+  border: 1px solid rgb(67, 85, 112);
+  border-radius: 4px;
+  max-width: 400px;
+  background-color: rgb(220, 233, 250);
+  -webkit-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  transition: all 500ms;
+}
+.login__space:hover, 
+.login__space:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+}
+
+.login__header {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #555;
+}
+
+.login-form__instruction {
+  letter-spacing: 1.5px;
+  color: #555;
+}
+
+.login-form__content {
+border: 1px solid rgba(85, 85, 85, 0.692);
+border-radius: 4px;
+width: 250px;
+margin: auto;
+background-color: rgba(255, 253, 253, 0.678);
+}
+
+.login-form__input {
+  width: 240px;
+  border: none;
+  background-color: transparent;
+}
+
+.login-form__btn {
+  margin-top: 15px;
+  padding: 5px 10px;
+  background-color: rgb(177, 211, 255);
+  border: none;
+  -webkit-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  transition: all 500ms;
+}
+.login-form__btn:hover,
+.login-form__btn:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+}
+
+.login-form__btn-link {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(85, 85, 85);
+}
+/* ========================END LOGIN======================== */
+
+/* ========================HOME START===================== */
+
+/* ----------------HERO---------------- */
+
+.hero__space {
+  max-width: 480px;
+  height: 286px;
+  background-image: 
+  linear-gradient(
+    rgba(47, 48, 58, 0.3),
+    rgba(47, 48, 58, 0.3)),
+  url(/images/signpost480.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero__header {
+  letter-spacing: 4px;
+  margin-left: 15px;
+  padding-top: 10px;
+  font-size: 30px;
+  color: rgb(209, 221, 255);
+  text-transform: uppercase;
+}
+/* ----------------END HERO---------------- */
+
+/* -----------------ABOUTE---------------- */
+
+.aboute .container {
+  /* width: 480px; */
+  text-align: center;
+}
+
+.aboute__description {
+  max-width: 450px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+  color: #555;
+  font-weight: bold;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: rgba(207, 226, 252, 0.658);
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+}
+
+.aboute__description-second {
+  max-width: 400px;
+  padding: 10px 15px;
+  margin: 15px auto;
+  letter-spacing: 1.5px;
+  color: #555;
+  font-weight: 600;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: rgba(207, 226, 252, 0.658);
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221); 
+}
+/* -----------------END ABOUTE---------------- */
+
+/* -----------------REGISTER---------------- */
+
+.register .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.register__driver,
+.register__passenger {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: rgba(207, 226, 252, 0.658);
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221); 
+  transition: all 500ms;
+}
+.register__driver:hover,
+.register__driver:focus,
+.register__passenger:hover,
+.register__passenger:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(54, 112, 238);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(54, 112, 238, 1);
+  box-shadow: 2px 5px 16px -6px rgba(54, 112, 238, 1);
+}
+
+.register__driver-link,
+.register__passenger-link {
+  display: block;
+  padding: 20px 10px;
+  width: 135px;
+  height: 135px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  color: rgb(27, 65, 134);
+  transition: all 500ms;
+}
+.register__driver-link:hover,
+.register__driver-link:focus,
+.register__passenger-link:hover,
+.register__passenger-link:focus {
+  color: rgb(54, 112, 238);
+}
+/* -----------------REGISTER END---------------- */
+
+/* -----------------FOOTER---------------- */
+
+.footer .container {
+padding: 15px 0;
+}
+
+.footer__contact-space {
+  max-width: 480px;
+  height: 150px;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url(/images/footer480.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__contact-title {
+  padding: 15px 25px;
+  letter-spacing: 1.5px;
+  color: rgb(221, 221, 221);
+  font-weight: 600;
+}
+
+.footer__contact-link {
+  margin-left: 25px;
+  letter-spacing: 2.5px;
+  color: rgb(99, 184, 253);
+  font-weight: 600;
+}
+/* -----------------FOOTER END---------------- */
+/* ========================HOME END===================== */
+
+
+/* ========================DRIVER START===================== */
+/* -----------------DRIVER---------------- */
+
+.driver .container {
+  text-align: center;
+}
+
+.driver__header {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #555;
+}
+
+.driver__btn {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding: 5px 10px;
+  background-color: rgb(177, 211, 255);
+  border: none;
+  -webkit-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  transition: all 500ms;
+}
+.driver__btn:hover,
+.driver__btn:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  background-color: rgb(52, 91, 150);
+}
+
+.driver__btn-title {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(85, 85, 85);
+  transition: all 500ms;
+}
+.driver__btn-title:hover,
+.driver__btn-title:focus {
+  color: rgb(255, 255, 255);
+}
+/* -----------------END DRIVER---------------- */
+
+
+/* -----------------PASSENGER---------------- */
+
+.passenger .container {
+  text-align: center;
+}
+
+.passenger__header {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #555;
+}
+
+/* -----------------END PASSENGER---------------- */
+
+
+/* -----------------REPORTED ROUTES---------------- */
+
+.reported-routes__header {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #555;
+}
+
+.reported-routes__record {
+  max-width: 450px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+  color: rgba(85, 85, 85, 0.781);
+  font-weight: bold;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: rgba(207, 226, 252, 0.658);
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+}
+
+/* .reported-routes__record-item-description {
+  margin-right: 20px;
+} */
+.reported-routes__record-item-content {
+  color: rgba(85, 85, 85, 0.993);
+  margin-left: 15px;
+}
+
+.reported-routes__record-btn-join {
+  margin-top: 15px;
+  padding: 5px 10px;
+  background-color: rgb(177, 211, 255);
+  border: none;
+  -webkit-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  transition: all 500ms;
+}
+.reported-routes__record-btn-join:hover,
+.reported-routes__record-btn-join:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  box-shadow: 2px 5px 16px -6px rgba(111, 162, 221);
+  background-color: rgb(52, 91, 150);
+}
+
+.reported-routes__record-btn-title {
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(85, 85, 85);
+  transition: all 500ms;
+}
+.reported-routes__record-btn-title:hover,
+.reported-routes__record-btn-title:focus {
+  color: rgb(255, 255, 255);
+}
+/* -----------------END REPORTED ROUTES---------------- */
+
+
+/* -----------------MODAL FORM DRIVER---------------- */
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #555;
+  border: none;
+  background: transparent;
+}
+
+.modal-form-driver .container {
+  max-width: 350px;
+
+}
+
+.form-driver {
+  position: relative;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 4px;
+  padding: 15px;
+  background-color: rgba(207, 226, 252, 0.658);
+}
+
+.form-driver__title {
+  letter-spacing: 1.5px;
+  color: #555;
+  font-size: 12px;
+}
+
+.form-driver__input-space {
+border: 1px solid rgba(85, 85, 85, 0.692);
+border-radius: 4px;
+max-width: 300px;
+margin: auto;
+background-color: rgba(255, 253, 253, 0.678);
+}
+
+.form-driver__input {
+  width: 300px;
+  border: none;
+  background-color: transparent;
+}
